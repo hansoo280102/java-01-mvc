@@ -23,6 +23,7 @@
                         <div class="col-12 mx-auto mb-2">
                             <div class="d-flex justify-content-between">
                                 <h3>User Detail with id = ${id}</h3>
+                                <a href="/admin/user" class="btn btn-success">Back</a>
                             </div>
                             <hr />
                             <div class=" mx-auto card " style="width: 60%">
@@ -30,19 +31,20 @@
                                     User information
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="fst-italic fw-bold list-group-item d-flex justify-content-between">
-                                        <div>Full name: </div>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <div class="fst-italic fw-bold ">Full name: </div>
                                         <div>${user.fullName}</div>
                                     </li>
-                                    <li class="fst-italic fw-bold list-group-item d-flex justify-content-between">
-                                        <div>Phone: </div>${user.phone}<div></div>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <div class="fst-italic fw-bold ">Phone: </div>
+                                        <div>${user.phone}</div>
                                     </li>
-                                    <li class="fst-italic fw-bold list-group-item d-flex justify-content-between">
-                                        <div>Email: </div>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <div class="fst-italic fw-bold ">Email: </div>
                                         <div>${user.email}</div>
                                     </li>
-                                    <li class="fst-italic fw-bold list-group-item d-flex justify-content-between">
-                                        <div>Address: </div>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <div class="fst-italic fw-bold ">Address: </div>
                                         <div>${user.address}</div>
                                     </li>
                                 </ul>
